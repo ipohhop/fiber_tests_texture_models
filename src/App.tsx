@@ -22,13 +22,7 @@ function App() {
     return (
         <div className="App" style={{position:"relative"}}>
 
-
             <RootComponent/>
-
-            <Test>
-                hello app
-            </Test>
-
 
         </div>
     );

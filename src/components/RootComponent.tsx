@@ -15,7 +15,7 @@ type Props = OwnProps;
 const RootComponent: FunctionComponent<Props> = (props) => {
 
   return (
-      <div>
+      <div >
           <Header/>
           <React.Suspense fallback={()=><h2>Loading...</h2>}>
 
