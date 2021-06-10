@@ -1,5 +1,8 @@
+// outer
 import React, {FunctionComponent} from 'react';
 import styled from "styled-components";
+
+// local
 
 interface OwnProps {
     width?: string,

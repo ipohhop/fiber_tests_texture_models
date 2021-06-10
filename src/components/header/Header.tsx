@@ -1,11 +1,11 @@
 // outer
 import React, {FunctionComponent} from 'react';
 import styled from "styled-components";
-import Logo from "../generalComponents/Logo";
-import NavMenu from "./NavMenu";
 
 
 //local
+import NavMenu from "./NavMenu";
+import Logo from "../generalComponents/Logo";
 
 
 interface OwnProps {

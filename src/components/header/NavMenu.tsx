@@ -1,6 +1,11 @@
+// outer
 import React, {FunctionComponent} from 'react';
 import styled from "styled-components";
 import {  NavLink } from "react-router-dom";
+
+// local
+
+
 
 interface OwnProps {
 }
@@ -13,7 +18,7 @@ const NavMenu: FunctionComponent<Props> = (props) => {
         <NavMenuStyled>
 
             <NavItem>
-                <NavLinkStyled to="/pathology">
+                <NavLinkStyled to="/">
                     VOKA.PATHOLOGY 3D
                 </NavLinkStyled>
             </NavItem>
